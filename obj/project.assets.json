@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Usuario\\Documents\\Projetos\\Eplayers\\Eplayers.csproj",
+      "projectUniqueName": "C:\\Users\\Usuario\\Documents\\Projetos\\EPlayersFinalizado\\Eplayers.csproj",
       "projectName": "Eplayers",
-      "projectPath": "C:\\Users\\Usuario\\Documents\\Projetos\\Eplayers\\Eplayers.csproj",
+      "projectPath": "C:\\Users\\Usuario\\Documents\\Projetos\\EPlayersFinalizado\\Eplayers.csproj",
       "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Usuario\\Documents\\Projetos\\Eplayers\\obj\\",
+      "outputPath": "C:\\Users\\Usuario\\Documents\\Projetos\\EPlayersFinalizado\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"

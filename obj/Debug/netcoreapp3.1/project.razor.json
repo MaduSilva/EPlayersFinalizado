@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\Usuario\\Documents\\Projetos\\Eplayers\\Eplayers.csproj",
+  "FilePath": "c:\\Users\\Usuario\\Documents\\Projetos\\EPlayersFinalizado\\Eplayers\\Eplayers.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "3.0",
@@ -20521,38 +20521,43 @@
   "RootNamespace": "Eplayers",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\Usuario\\Documents\\Projetos\\Eplayers\\Views\\Home\\Index.cshtml",
+      "FilePath": "c:\\Users\\Usuario\\Documents\\Projetos\\EPlayersFinalizado\\Eplayers\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Usuario\\Documents\\Projetos\\Eplayers\\Views\\_ViewStart.cshtml",
-      "TargetPath": "Views\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Usuario\\Documents\\Projetos\\Eplayers\\Views\\Shared\\_Layout.cshtml",
+      "FilePath": "c:\\Users\\Usuario\\Documents\\Projetos\\EPlayersFinalizado\\Eplayers\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Usuario\\Documents\\Projetos\\Eplayers\\Views\\Shared\\Error.cshtml",
-      "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FilePath": "c:\\Users\\Usuario\\Documents\\Projetos\\EPlayersFinalizado\\Eplayers\\Views\\_ViewStart.cshtml",
+      "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Usuario\\Documents\\Projetos\\Eplayers\\Views\\Home\\Privacy.cshtml",
+      "FilePath": "c:\\Users\\Usuario\\Documents\\Projetos\\EPlayersFinalizado\\Eplayers\\Views\\Equipes\\Index.cshtml",
+      "TargetPath": "Views\\Equipes\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Usuario\\Documents\\Projetos\\EPlayersFinalizado\\Eplayers\\Views\\Home\\Privacy.cshtml",
       "TargetPath": "Views\\Home\\Privacy.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Usuario\\Documents\\Projetos\\Eplayers\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FilePath": "c:\\Users\\Usuario\\Documents\\Projetos\\EPlayersFinalizado\\Eplayers\\Views\\_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Usuario\\Documents\\Projetos\\Eplayers\\Views\\_ViewImports.cshtml",
-      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FilePath": "c:\\Users\\Usuario\\Documents\\Projetos\\EPlayersFinalizado\\Eplayers\\Views\\Shared\\Error.cshtml",
+      "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Usuario\\Documents\\Projetos\\EPlayersFinalizado\\Eplayers\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
     }
   ],
