@@ -21,16 +21,16 @@ namespace Eplayers.Models {
         /// <summary>
         /// Criar Equipe
         /// </summary>
-        /// <param name="Create Equipe"></param>
+        /// <param name="e">Equipe</param>
         public void Create (Equipe e) {
-            string[] linha = { Prepare (e) };
+            string[] linha = { Prepare (e) }; 
             File.AppendAllLines (PATH, linha);
         }
 
         /// <summary>
         /// Preparar estrutura id;nome;imagem
         /// </summary>
-        /// <param name="Estrutura"></param>
+        /// <param name="e">Equipe</param>
         private string Prepare (Equipe e) {
             return $"{e.IdEquipe};{e.Nome};{e.Imagem}";
         }
@@ -38,9 +38,9 @@ namespace Eplayers.Models {
 
 
         /// <summary>
-        /// Deleta uma equipe
+        /// Deleta a Equipe
         /// </summary>
-        /// <param name="Delete Equipe"></param>
+        /// <param name="idEquipe">Id da equipe</param>
         public void Delete (int idEquipe) {
             List<string> linhas = ReadAllLinesCSV (PATH);
             linhas.RemoveAll (y => y.Split (";") [0] == IdEquipe.ToString ());
@@ -49,7 +49,7 @@ namespace Eplayers.Models {
 
 
         /// <summary>
-        /// Read Equipe
+        /// Ler Equipe
         /// </summary>
         /// <returns>Return Equipes</returns>
         public List<Equipe> ReadAll () {
@@ -70,7 +70,7 @@ namespace Eplayers.Models {
         /// <summary>
         /// Update Equipes
         /// </summary>
-        /// <param name="Update Equipes"></param>
+        /// <param name="e">Equipe</param>
         public void Update (Equipe e) {
             List<string> linhas = ReadAllLinesCSV (PATH);
             linhas.RemoveAll (y => y.Split (";") [0] == e.IdEquipe.ToString ());

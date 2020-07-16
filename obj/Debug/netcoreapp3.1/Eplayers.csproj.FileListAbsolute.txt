@@ -19,7 +19,6 @@ C:\Users\Usuario\Documents\Projetos\EPlayersFinalizado\obj\Debug\netcoreapp3.1\E
 C:\Users\Usuario\Documents\Projetos\EPlayersFinalizado\obj\Debug\netcoreapp3.1\Eplayers.TagHelpers.input.cache
 C:\Users\Usuario\Documents\Projetos\EPlayersFinalizado\obj\Debug\netcoreapp3.1\Eplayers.TagHelpers.output.cache
 C:\Users\Usuario\Documents\Projetos\EPlayersFinalizado\obj\Debug\netcoreapp3.1\Eplayers.RazorCoreGenerate.cache
-C:\Users\Usuario\Documents\Projetos\EPlayersFinalizado\obj\Debug\netcoreapp3.1\Razor\Views\Equipes\Index.cshtml.g.cs
 C:\Users\Usuario\Documents\Projetos\EPlayersFinalizado\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\Usuario\Documents\Projetos\EPlayersFinalizado\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
 C:\Users\Usuario\Documents\Projetos\EPlayersFinalizado\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
@@ -36,3 +35,4 @@ C:\Users\Usuario\Documents\Projetos\EPlayersFinalizado\obj\Debug\netcoreapp3.1\E
 C:\Users\Usuario\Documents\Projetos\EPlayersFinalizado\obj\Debug\netcoreapp3.1\Eplayers.pdb
 C:\Users\Usuario\Documents\Projetos\EPlayersFinalizado\obj\Debug\netcoreapp3.1\Eplayers.genruntimeconfig.cache
 C:\Users\Usuario\Documents\Projetos\EPlayersFinalizado\obj\Debug\netcoreapp3.1\Eplayers.csproj.CopyComplete
+C:\Users\Usuario\Documents\Projetos\EPlayersFinalizado\obj\Debug\netcoreapp3.1\Razor\Views\Equipe\Index.cshtml.g.cs
