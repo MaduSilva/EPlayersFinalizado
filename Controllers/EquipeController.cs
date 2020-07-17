@@ -18,6 +18,7 @@ namespace Eplayers.Controllers {
         public IActionResult Index () {
             ViewBag.Equipes = equipemodel.ReadAll ();
             return View ();
+
         }
 
         public IActionResult Cadastrar (IFormCollection form) {
@@ -26,9 +27,7 @@ namespace Eplayers.Controllers {
             equipe.IdEquipe = Int32.Parse (form["IdEquipe"]);
             equipe.Nome = form["Nome"];
 
-            //upload da imagem
-           equipe.Imagem = form["Imagem"];
-
+           
             var file = form.Files[0];
 
             //path combine - combina caminhos ex: pastaA/pastaB/pastaC/arquivo.png
@@ -51,12 +50,16 @@ namespace Eplayers.Controllers {
                 equipe.Imagem = "padrao.png";
             }
             // fim da imagem
-            
-            equipemodel.Create (equipe);
-            ViewBag.Equipes = equipemodel.ReadAll ();
 
+            equipemodel.Create (equipe);
+            return LocalRedirect ("~/Equipe");
+        }
+
+        [Route ("[controller]/{id}")]
+
+        public IActionResult Excluir (int id) {
+            equipemodel.Delete (id);
             return LocalRedirect ("~/Equipe");
         }
     }
 }
-
