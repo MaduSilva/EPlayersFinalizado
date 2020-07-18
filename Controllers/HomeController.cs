@@ -5,9 +5,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using Eplayers.Models;
+using EplayersFinalizado.Models;
 
-namespace Eplayers.Controllers
+namespace EplayersFinalizado.Controllers
 {
     public class HomeController : Controller
     {

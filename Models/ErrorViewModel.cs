@@ -1,6 +1,6 @@
 using System;
 
-namespace Eplayers.Models
+namespace EplayersFinalizado.Models
 {
     public class ErrorViewModel
     {

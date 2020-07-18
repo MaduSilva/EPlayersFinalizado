@@ -1,9 +1,10 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
-using Eplayers.Interfaces;
+using EplayersFinalizado.Interfaces;
+using EplayersFinalizado.Models;
 
-namespace Eplayers.Models {
+namespace Eplayers.Models{
     public class Equipe : EplayersBase , IEquipe {
         public int IdEquipe { get; set; }
         public string Nome { get; set; }

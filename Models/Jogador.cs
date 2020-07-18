@@ -1,4 +1,4 @@
-namespace Eplayers.Models {
+namespace EplayersFinalizado.Models {
     public class Jogador {
         public int IdJogador { get; set; }
 

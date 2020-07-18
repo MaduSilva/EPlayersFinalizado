@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using System.IO;
 
-namespace Eplayers.Models {
+namespace EplayersFinalizado.Models {
         public class EplayersBase {
             public void CreateFolderAndFile (string _path) {
 

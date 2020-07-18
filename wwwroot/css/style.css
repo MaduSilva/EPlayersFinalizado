@@ -106,8 +106,10 @@ ul{
 
 .champion{
     position: absolute;
-    right: 15%;
+    right: 0%;
     top: 450px;
+    width: 46%;
+
 }
 
 #horarios{
@@ -363,7 +365,7 @@ table a{
 
 @media screen and (max-width: 1200px){
     .champion{        
-        right: 3%;
+        right: 10%;
         width: 50%;
     }
     .sobre .container div{
